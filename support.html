@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="../style/styles.css" />
+    <link rel="stylesheet" href="./style/styles.css" />
   </head>
 
   <body>
@@ -24,29 +24,30 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
             <img
-              src="../images/logo.png"
+              src="./images/logo.png"
               alt="Logo"
               width="30"
               height="24"
               class="d-inline-block align-text-top"
             />
             ChoiceATM Industries
-            </a>
-          <nav
-            class="nav justify-content-center  "
-          >
-            <a class="nav-link" href="./index.html">Home</a
-            >
+          </a>
+          <nav class="nav justify-content-center">
+            <a class="nav-link" href="./index.html">Home</a>
             <a class="nav-link" href="./services.html">Services</a>
-            
+
             <a class="nav-link" href="./contact.html">Contact</a>
-            
-            <a class="nav-link disabled" href="./support.html" aria-disabled="true">Support</a>
+
+            <a
+              class="nav-link disabled"
+              href="./support.html"
+              aria-disabled="true"
+              >Support</a
+            >
           </nav>
-          
         </div>
       </nav>
-      <div style="background-color: #09bd09; height: 60px;"></div> 
+      <div style="background-color: #09bd09; height: 60px"></div>
     </header>
     <main>
       <div class="container text-center">
@@ -54,15 +55,28 @@
           <form>
             <div class="mb-3">
               <label for="customername" class="form-label">Name</label>
-              <input type="text" class="form-control" id="customername" required>
+              <input
+                type="text"
+                class="form-control"
+                id="customername"
+                required
+              />
             </div>
             <div class="mb-3">
               <label for="customeraddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="customeraddress" required>
+              <input
+                type="text"
+                class="form-control"
+                id="customeraddress"
+                required
+              />
             </div>
             <div class="input-group">
               <span class="input-group-text">Problem:</span>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
+              <textarea
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
