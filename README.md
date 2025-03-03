@@ -10,3 +10,6 @@ As a potential customer, I want to access the company so that I may decide wheth
 
 Acceptance Criteria:
 The website contains home, support, and services pages. Brief about-us about the owner
+
+Current content:
+Content is composed of lorem ipsum text and stock images, pending company distribution of wanted content.
